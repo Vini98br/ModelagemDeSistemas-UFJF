@@ -1,0 +1,97 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+
+// Font Awesome
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/regular.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+
+// Variables
+@import 'variables';
+
+// DataTable
+@import '~datatables.net-bs4/css/dataTables.bootstrap4.min.css';
+
+// Select2
+@import '~select2/dist/css/select2.min.css';
+
+// AdminLTE
+@import '~admin-lte/build/scss/AdminLTE.scss';
+
+$sigmaPrincipal : #8dc73f;
+$sigmaSecundario : black;
+
+.icone-top{
+    margin-left: 17px;
+    font-size: 20px;
+    color: #8dc73f;
+    margin-right: 10px;
+}
+
+.img-login{
+    position: relative;
+    right: 35px;
+    margin-bottom: 19px;
+}
+
+.botao_titulo{
+    float: right;
+    margin-bottom: 10px;
+}
+.btn-back{
+    float: left;
+}
+
+.options {
+    white-space: nowrap;
+}
+
+.options>* {
+    display: inline-block;
+}
+
+.btn-parcelas{
+    margin:auto;
+}
+
+.btn-code{
+    color: $sigmaSecundario;
+    box-shadow: none;
+    background-color: $sigmaPrincipal;
+    border-color: $sigmaSecundario;
+}
+
+.card-code-login{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.card-code{
+    border-top:3px solid $sigmaPrincipal;
+}
+
+.color-code{
+    color: $sigmaPrincipal;
+}
+
+.sidebar-dark-warning .nav-sidebar > .nav-item > .nav-link.active, .sidebar-light-warning .nav-sidebar > .nav-item > .nav-link.active{
+    background-color: $sigmaPrincipal;
+    color: $sigmaSecundario;
+}
+.card-parcelas{
+    display: none;
+}
+
+.btn-delete{
+    margin-right: 5px;
+}
+.title-list-show{
+    margin-bottom: 5px;
+}
+.text-show{
+    text-align: justify;
+}
